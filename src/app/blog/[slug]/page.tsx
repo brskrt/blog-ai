@@ -5,14 +5,13 @@ import Markdown from 'react-markdown';
 import { Metadata } from 'next';
 
 interface Props {
-  params: Promise<{
+  params: {
     slug: string;
-  }>;
+  };
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const resolvedParams = await params;
-  const post = await getPostBySlug(resolvedParams.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const post = await getPostBySlug(params.slug);
 
   if (!post) {
     return {
@@ -38,8 +37,7 @@ export async function generateStaticParams() {
 }
 
 export default async function Page({ params }: Props) {
-  const resolvedParams = await params;
-  const post = await getPostBySlug(resolvedParams.slug);
+  const post = await getPostBySlug(params.slug);
 
   if (!post) {
     notFound();
