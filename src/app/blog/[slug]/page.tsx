@@ -87,9 +87,12 @@ export default async function Page({ params }: Props) {
           <div className="prose prose-lg max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-ul:list-disc prose-ol:list-decimal">
             <Markdown
               components={{
-                h1: (props) => <h1 className="text-3xl mt-12 mb-6" {...props} />,
-                h2: (props) => <h2 className="text-2xl mt-10 mb-5" {...props} />,
-                h3: (props) => <h3 className="text-xl mt-8 mb-4" {...props} />,
+                h1: (props) => <h2 className="text-3xl font-bold mt-12 mb-6" {...props} />,
+                h2: (props) => <h2 className="text-2xl font-bold mt-10 mb-5" {...props} />,
+                h3: (props) => <h3 className="text-xl font-bold mt-8 mb-4" {...props} />,
+                h4: (props) => <h4 className="text-lg font-bold mt-6 mb-3" {...props} />,
+                h5: (props) => <h5 className="text-base font-bold mt-4 mb-2" {...props} />,
+                h6: (props) => <h6 className="text-sm font-bold mt-4 mb-2" {...props} />,
                 p: (props) => <p className="my-6 leading-relaxed" {...props} />,
                 ul: (props) => <ul className="my-6 ml-6 space-y-3" {...props} />,
                 ol: (props) => <ol className="my-6 ml-6 space-y-3" {...props} />,
