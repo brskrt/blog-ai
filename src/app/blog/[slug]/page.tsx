@@ -87,14 +87,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <div className="prose prose-lg prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-ul:list-disc prose-ol:list-decimal">
               <Markdown
                 components={{
-                  h1: ({node, ...props}) => <h1 className="text-3xl mt-8 mb-4" {...props} />,
-                  h2: ({node, ...props}) => <h2 className="text-2xl mt-8 mb-4" {...props} />,
-                  h3: ({node, ...props}) => <h3 className="text-xl mt-6 mb-3" {...props} />,
-                  p: ({node, ...props}) => <p className="my-4 leading-relaxed" {...props} />,
-                  ul: ({node, ...props}) => <ul className="my-4 ml-6 space-y-2" {...props} />,
-                  ol: ({node, ...props}) => <ol className="my-4 ml-6 space-y-2" {...props} />,
-                  li: ({node, ...props}) => <li className="leading-relaxed" {...props} />,
-                  a: ({node, ...props}) => (
+                  h1: (props) => <h1 className="text-3xl mt-8 mb-4" {...props} />,
+                  h2: (props) => <h2 className="text-2xl mt-8 mb-4" {...props} />,
+                  h3: (props) => <h3 className="text-xl mt-6 mb-3" {...props} />,
+                  p: (props) => <p className="my-4 leading-relaxed" {...props} />,
+                  ul: (props) => <ul className="my-4 ml-6 space-y-2" {...props} />,
+                  ol: (props) => <ol className="my-4 ml-6 space-y-2" {...props} />,
+                  li: (props) => <li className="leading-relaxed" {...props} />,
+                  a: (props) => (
                     <a 
                       className="text-blue-600 hover:underline" 
                       target="_blank"
@@ -102,10 +102,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       {...props} 
                     />
                   ),
-                  code: ({node, ...props}) => (
+                  code: (props) => (
                     <code className="px-2 py-1 bg-gray-100 rounded text-sm font-mono" {...props} />
                   ),
-                  pre: ({node, ...props}) => (
+                  pre: (props) => (
                     <pre className="p-4 bg-gray-900 text-white rounded-lg overflow-x-auto my-4" {...props} />
                   ),
                 }}
