@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Markdown from 'react-markdown';
 
 interface Props {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -17,7 +17,8 @@ export async function generateStaticParams() {
 }
 
 export default async function Page({ params }: Props) {
-  const post = await getPostBySlug(params.slug);
+  const resolvedParams = await params;
+  const post = await getPostBySlug(resolvedParams.slug);
 
   if (!post) {
     notFound();
