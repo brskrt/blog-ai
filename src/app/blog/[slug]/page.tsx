@@ -1,12 +1,12 @@
 import { getPostBySlug, getAllPosts } from '@/lib/posts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import Markdown from 'markdown-to-jsx';
+import Markdown from 'react-markdown';
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -17,12 +17,11 @@ export async function generateStaticParams() {
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  if (!params?.slug) {
-    notFound();
-  }
+  const resolvedParams = await params;
+  const { slug } = resolvedParams;
 
   try {
-    const post = await getPostBySlug(params.slug);
+    const post = await getPostBySlug(slug);
 
     if (!post) {
       notFound();
@@ -57,66 +56,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             )}
           </div>
           <div className="prose-lg">
-            <Markdown
-              options={{
-                overrides: {
-                  h2: {
-                    props: {
-                      className: 'text-3xl font-bold mt-8 mb-4',
-                    },
-                  },
-                  h3: {
-                    props: {
-                      className: 'text-2xl font-bold mt-6 mb-3',
-                    },
-                  },
-                  p: {
-                    props: {
-                      className: 'mb-4 leading-relaxed',
-                    },
-                  },
-                  a: {
-                    props: {
-                      className: 'text-blue-600 hover:text-blue-800',
-                      target: '_blank',
-                      rel: 'noopener noreferrer',
-                    },
-                  },
-                  code: {
-                    props: {
-                      className: 'bg-gray-100 rounded px-1 py-0.5',
-                    },
-                  },
-                  pre: {
-                    props: {
-                      className: 'bg-gray-100 rounded-lg p-4 overflow-x-auto my-4',
-                    },
-                  },
-                  ul: {
-                    props: {
-                      className: 'list-disc pl-6 mb-4',
-                    },
-                  },
-                  ol: {
-                    props: {
-                      className: 'list-decimal pl-6 mb-4',
-                    },
-                  },
-                  li: {
-                    props: {
-                      className: 'mb-2',
-                    },
-                  },
-                },
-              }}
-            >
-              {post.content}
-            </Markdown>
+            <Markdown>{post.content}</Markdown>
           </div>
         </article>
       </main>
     );
-  } catch (error) {
+  } catch {
     notFound();
   }
 } 
