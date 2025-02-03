@@ -1,5 +1,11 @@
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Barış Kurt | Kişisel Blog',
+  description: 'Yazılım, teknoloji ve dijital pazarlama üzerine yazılar.',
+};
 
 export default async function Home() {
   const posts = await getAllPosts();

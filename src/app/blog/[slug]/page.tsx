@@ -2,11 +2,32 @@ import { getPostBySlug, getAllPosts } from '@/lib/posts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Markdown from 'react-markdown';
+import { Metadata } from 'next';
 
 interface Props {
   params: Promise<{
     slug: string;
   }>;
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const resolvedParams = await params;
+  const post = await getPostBySlug(resolvedParams.slug);
+
+  if (!post) {
+    return {
+      title: 'Not Found',
+      description: 'The page you are looking for does not exist.'
+    };
+  }
+
+  // Get the first paragraph of the content for description
+  const firstParagraph = post.content.split('\n').find(p => p.trim() !== '' && !p.startsWith('#'));
+
+  return {
+    title: `${post.title} | Barış Kurt`,
+    description: firstParagraph || post.title,
+  };
 }
 
 export async function generateStaticParams() {
