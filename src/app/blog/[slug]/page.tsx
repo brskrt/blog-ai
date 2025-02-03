@@ -39,10 +39,20 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <article className="prose lg:prose-xl max-w-none">
           <h1 className="text-4xl font-bold mb-8">{post.title}</h1>
           <div className="not-prose mb-8 text-lg">
-            <span className="text-purple-600 font-medium">{post.author}</span>
-            <span className="mx-2 text-gray-400">•</span>
-            <span className="text-emerald-600 font-medium">{new Date(post.date).toLocaleDateString('tr-TR')}</span>
-            {post.tags && (
+            {post.author && (
+              <>
+                <span className="text-purple-600 font-medium">{post.author}</span>
+                <span className="mx-2 text-gray-400">•</span>
+              </>
+            )}
+            <span className="text-emerald-600 font-medium">
+              {new Date(post.date).toLocaleDateString('tr-TR', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })}
+            </span>
+            {post.tags && post.tags.length > 0 && (
               <>
                 <span className="mx-2 text-gray-400">•</span>
                 <span className="space-x-2">

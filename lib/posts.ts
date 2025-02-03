@@ -9,6 +9,8 @@ interface Post {
   title: string;
   date: string;
   content: string;
+  author?: string;
+  tags?: string[];
 }
 
 export async function getAllPosts(): Promise<Post[]> {
@@ -43,6 +45,8 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       title: data.title,
       date: data.date,
       content,
+      author: data.author,
+      tags: data.tags,
     };
   } catch (error) {
     console.error(`Error getting post by slug ${slug}:`, error);
