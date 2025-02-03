@@ -1,6 +1,6 @@
 ---
 title: "Google Algoritması ve SEO İlişkisi"
-date: "2024-03-19"
+date: "2024-02-02"
 author: "Barış Kurt"
 tags: ["google", "seo", "algoritma", "arama motoru"]
 ---

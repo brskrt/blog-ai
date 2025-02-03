@@ -4,24 +4,26 @@ import Link from 'next/link';
 import Markdown from 'react-markdown';
 
 interface BlogPostPageProps {
-  params: Promise<{
+  params: {
     slug: string;
-  }>;
+  };
 }
 
 export async function generateStaticParams() {
-  const posts = await getAllPosts();
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  try {
+    const posts = await getAllPosts();
+    return posts.map((post) => ({
+      slug: post.slug,
+    }));
+  } catch (error) {
+    console.error('Error generating static params:', error);
+    return [];
+  }
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const resolvedParams = await params;
-  const { slug } = resolvedParams;
-
   try {
-    const post = await getPostBySlug(slug);
+    const post = await getPostBySlug(params.slug);
 
     if (!post) {
       notFound();

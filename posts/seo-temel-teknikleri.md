@@ -1,6 +1,6 @@
 ---
 title: "SEO Temel Teknikleri ve En İyi Uygulamalar"
-date: "2024-03-19"
+date: "2024-02-03"
 author: "Barış Kurt"
 tags: ["seo", "dijital pazarlama", "web optimizasyonu"]
 ---
