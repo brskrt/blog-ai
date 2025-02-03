@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Markdown from 'react-markdown';
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -22,12 +22,14 @@ export async function generateStaticParams() {
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  if (!params?.slug) {
+  const resolvedParams = await params;
+  
+  if (!resolvedParams?.slug) {
     notFound();
   }
 
   try {
-    const post = await getPostBySlug(params.slug);
+    const post = await getPostBySlug(resolvedParams.slug);
 
     if (!post) {
       notFound();
