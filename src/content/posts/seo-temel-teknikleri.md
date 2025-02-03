@@ -1,85 +1,75 @@
 ---
-title: SEO Temel Teknikleri ve En İyi Uygulamalar
-date: '2024-02-03'
-author: Barış Kurt
-excerpt: Web sitenizin arama motorlarında daha iyi sıralamalara ulaşması için uygulamanız gereken temel SEO teknikleri ve en iyi uygulamalar.
-tags:
-  - seo
-  - web
-  - dijital pazarlama
+title: "SEO Temel Teknikleri ve En İyi Uygulamalar"
+date: "2024-02-03"
+author: "Barış Kurt"
+tags: ["seo", "dijital pazarlama", "web optimizasyonu"]
 ---
 
 # SEO Temel Teknikleri ve En İyi Uygulamalar
 
-Arama Motoru Optimizasyonu (SEO), web sitenizin arama motorlarında daha iyi görünürlük elde etmesi için yapılan çalışmaların bütünüdür. Bu yazıda, etkili SEO stratejileri ve temel teknikleri ele alacağız.
+SEO (Search Engine Optimization), web sitelerinin arama motorlarında daha iyi sıralamalara ulaşmasını sağlayan tekniklerin bütünüdür. Bu yazıda, SEO'nun temel tekniklerini ve en iyi uygulamalarını inceleyeceğiz.
 
 ## On-Page SEO Teknikleri
 
 1. **Title Tag Optimizasyonu**
-   - Her sayfa için benzersiz ve açıklayıcı başlıklar
-   - Anahtar kelimelerin doğal kullanımı
-   - 50-60 karakter uzunluğunda başlıklar
+   - Her sayfa için benzersiz ve açıklayıcı başlıklar kullanın
+   - Anahtar kelimeleri başlığın başına yerleştirin
+   - 50-60 karakter uzunluğunda tutun
 
 2. **Meta Description**
-   - Sayfa içeriğini özetleyen açıklamalar
-   - Anahtar kelimelerin akıcı kullanımı
-   - 150-160 karakter uzunluğunda açıklamalar
+   - Sayfanın içeriğini kısaca özetleyin
+   - Anahtar kelimeleri doğal bir şekilde kullanın
+   - 150-160 karakter arasında tutun
 
-3. **Header Etiketleri**
-   - Doğru H1, H2, H3 kullanımı
-   - Hiyerarşik yapı
-   - Anahtar kelime odaklı başlıklar
-
-4. **URL Yapısı**
-   - Kısa ve anlaşılır URL'ler
-   - Anahtar kelime içeren URL'ler
-   - Tire (-) kullanımı
+3. **Header Tags (H1, H2, H3)**
+   - Her sayfada tek bir H1 etiketi kullanın
+   - Alt başlıkları hiyerarşik olarak düzenleyin
+   - Anahtar kelimeleri doğal bir şekilde yerleştirin
 
 ## Teknik SEO
 
-1. **Sayfa Hızı Optimizasyonu**
-   - Görsel optimizasyonu
-   - Cache kullanımı
-   - Kod optimizasyonu
-   - CDN kullanımı
+1. **Site Hızı Optimizasyonu**
+   - Görsel optimizasyonu yapın
+   - Browser caching kullanın
+   - CSS ve JavaScript dosyalarını minimize edin
 
 2. **Mobile-First İndeksleme**
-   - Mobil uyumlu tasarım
-   - Responsive yapı
-   - AMP kullanımı
+   - Responsive tasarım kullanın
+   - Mobile-friendly test yapın
+   - Sayfa yükleme hızını mobil için optimize edin
 
 3. **XML Sitemap**
-   - Güncel sitemap
-   - Öncelikli sayfaların belirlenmesi
-   - Google Search Console entegrasyonu
+   - Güncel sitemap oluşturun
+   - Google Search Console'a ekleyin
+   - Düzenli olarak güncelleyin
 
 ## İçerik Stratejisi
 
 1. **Kaliteli İçerik Üretimi**
-   - Özgün ve değerli içerik
-   - Kullanıcı odaklı yaklaşım
-   - Düzenli içerik güncelleme
+   - Kullanıcı odaklı içerik yazın
+   - Güncel ve doğru bilgiler verin
+   - Özgün içerik oluşturun
 
 2. **Anahtar Kelime Araştırması**
-   - Uzun kuyruklu anahtar kelimeler
-   - Kullanıcı niyeti analizi
-   - Rekabet analizi
+   - Long-tail keywords kullanın
+   - Arama niyetini anlayın
+   - Rekabet analizi yapın
 
-3. **İçerik Formatları**
-   - Blog yazıları
-   - İnfografikler
-   - Video içerikler
-   - Vaka çalışmaları
+3. **İçerik Güncellemesi**
+   - Eski içerikleri güncelleyin
+   - Broken linkleri düzeltin
+   - Yeni bilgiler ekleyin
 
-### Örnek Meta Tag Yapısı
+## Meta Tag Örnek Yapısı
 
 ```html
 <head>
-  <title>SEO Temel Teknikleri ve En İyi Uygulamalar | Barış Kurt</title>
-  <meta name="description" content="Web sitenizin arama motorlarında daha iyi sıralamalara ulaşması için uygulamanız gereken temel SEO teknikleri ve en iyi uygulamalar." />
-  <meta name="keywords" content="seo, arama motoru optimizasyonu, dijital pazarlama" />
-  <link rel="canonical" href="https://bariskurt.com/seo-temel-teknikleri" />
+  <title>SEO Temel Teknikleri ve En İyi Uygulamalar | Site Adı</title>
+  <meta name="description" content="SEO temel teknikleri, on-page optimizasyon, teknik SEO ve içerik stratejileri hakkında kapsamlı rehber. En iyi SEO uygulamalarını öğrenin.">
+  <meta name="keywords" content="seo teknikleri, on-page seo, teknik seo, içerik stratejisi">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.siteadi.com/seo-temel-teknikleri">
 </head>
 ```
 
-Bu yazıda öğrendiğiniz SEO tekniklerini kendi web sitenizde uygulayarak, arama motorlarında daha iyi sıralamalara ulaşabilirsiniz. 
+Bu temel SEO teknikleri ve uygulamaları, web sitenizin arama motorlarında daha iyi performans göstermesine yardımcı olacaktır. Unutmayın ki SEO sürekli değişen ve gelişen bir alandır, bu yüzden güncel kalmak önemlidir. 
