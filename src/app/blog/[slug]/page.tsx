@@ -22,6 +22,10 @@ export async function generateStaticParams() {
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  if (!params?.slug) {
+    notFound();
+  }
+
   try {
     const post = await getPostBySlug(params.slug);
 

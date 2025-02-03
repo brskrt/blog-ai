@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Vercel için export ve unoptimized images ayarlarına gerek yok
+  output: 'standalone',
+  images: {
+    domains: ['localhost'],
+  },
 }
 
 module.exports = nextConfig 
