@@ -64,9 +64,12 @@ Breadcrumb navigasyonunun en yaygın kullanılan 3 türü bulunur:
 
 ## Web Sitesinde Breadcrumb Uygulanması
 
-1. **Uygun Tema veya Eklenti Seçimi**: Popüler içerik yönetim sistemlerinde (WordPress, Joomla, Drupal vb.) breadcrumb desteği sunan birçok tema ve eklenti mevcuttur.
-2. **Schema Markup Kullanımı**: Kodlamada "BreadcrumbList" ve "ListItem" gibi işaretlemeleri doğru şekilde ekleyerek arama motorlarına veri sağlanabilir.
-3. **Tutarlı Tasarım**: Sitenin genel tasarım diliyle uyumlu, kolay okunur ve abartısız bir breadcrumb tasarımı benimsenmelidir.
-4. **Her Sayfada Gösterme**: Kullanıcıların konumlarını her an takip edebilmeleri için breadcrumb mümkünse tüm içerik sayfalarında görünür olmalıdır.
+• Uygun Tema veya Eklenti Seçimi: Popüler içerik yönetim sistemlerinde (WordPress, Joomla, Drupal vb.) breadcrumb desteği sunan birçok tema ve eklenti mevcuttur.
+
+• Schema Markup Kullanımı: Kodlamada "BreadcrumbList" ve "ListItem" gibi işaretlemeleri doğru şekilde ekleyerek arama motorlarına veri sağlanabilir.
+
+• Tutarlı Tasarım: Sitenin genel tasarım diliyle uyumlu, kolay okunur ve abartısız bir breadcrumb tasarımı benimsenmelidir.
+
+• Her Sayfada Gösterme: Kullanıcıların konumlarını her an takip edebilmeleri için breadcrumb mümkünse tüm içerik sayfalarında görünür olmalıdır.
 
 Breadcrumb navigasyonu, hem kullanıcı deneyimini iyileştirmek hem de arama motoru optimizasyonunu (SEO) güçlendirmek için oldukça kritik bir araçtır. Özellikle geniş içerik yelpazesine sahip web sitelerinde, doğru biçimde tasarlanmış ve uygulanmış bir breadcrumb yapısı, ziyaretçilere ve arama motorlarına yol gösteren bir rehber niteliği taşır. 
