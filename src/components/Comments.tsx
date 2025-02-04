@@ -16,10 +16,10 @@ export default function Comments() {
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', 'brskrt/blog-ai');
     script.setAttribute('data-repo-id', 'R_kgDOLQGxXw');
-    script.setAttribute('data-category', 'General');
+    script.setAttribute('data-category', 'Announcements');
     script.setAttribute('data-category-id', 'DIC_kwDOLQGxX84CdxYE');
-    script.setAttribute('data-mapping', 'url');
-    script.setAttribute('data-strict', '0');
+    script.setAttribute('data-mapping', 'title');
+    script.setAttribute('data-strict', '1');
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
     script.setAttribute('data-input-position', 'bottom');
