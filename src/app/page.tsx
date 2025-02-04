@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
 import { Metadata } from 'next';
+import { Post } from '@/types/post';
 
 // JSON-LD component for structured data
-function JsonLd({ posts }: { posts: any[] }) {
+function JsonLd({ posts }: { posts: Post[] }) {
   const websiteStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',

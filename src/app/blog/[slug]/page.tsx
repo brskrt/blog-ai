@@ -4,13 +4,14 @@ import Link from 'next/link';
 import Markdown from 'react-markdown';
 import { Metadata } from 'next';
 import Comments from '@/components/Comments';
+import { Post } from '@/types/post';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
 // JSON-LD component for structured data
-function JsonLd({ post }: { post: any }) {
+function JsonLd({ post }: { post: Post }) {
   const articleStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
