@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bariskurt.com
+
+# Sitemaps
+Sitemap: https://bariskurt.com/sitemap.xml 
