@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Markdown from 'react-markdown';
 import { Metadata } from 'next';
+import Comments from '@/components/Comments';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -138,6 +139,8 @@ export default async function Page({ params }: Props) {
               {post.content}
             </Markdown>
           </div>
+          
+          <Comments />
         </article>
       </div>
     </main>
