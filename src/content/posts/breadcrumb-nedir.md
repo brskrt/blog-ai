@@ -30,10 +30,10 @@ Breadcrumb'ler genellikle yatay bir sıra hâlinde gösterilir ve her bir hiyera
 
 Anasayfa > Kategoriler > Alt Kategori > Ürün Sayfası
 
-• Anasayfa: Siteye ilk giriş (en üst seviye)
-• Kategoriler: Ana kategori (bir üst seviye)
-• Alt Kategori: Alt kategori (bir önceki seviye)
-• Ürün Sayfası: Geçerli sayfa (mevcut konum)
+-  Anasayfa: Siteye ilk giriş (en üst seviye)
+-  Kategoriler: Ana kategori (bir üst seviye)
+-  Alt Kategori: Alt kategori (bir önceki seviye)
+-  Ürün Sayfası: Geçerli sayfa (mevcut konum)
 
 Bu gösterim, kullanıcıların hem hangi sayfada olduklarını hem de bu sayfaya ulaşana kadar hangi aşamalardan geçtiklerini net bir şekilde anlamalarını sağlar.
 
@@ -42,11 +42,11 @@ Bu gösterim, kullanıcıların hem hangi sayfada olduklarını hem de bu sayfay
 Breadcrumb navigasyonunun en yaygın kullanılan 3 türü bulunur:  
 
 
-1 **Konumsal (Location-based) Breadcrumb**: Kullanıcıların site hiyerarşisindeki konumunu gösterir. Örnek:
-• Anasayfa > Blog > Kategori > Yazı Başlığı
-2 **Özellik (Attribute-based) Breadcrumb**: Özellikle e-ticaret sitelerinde ürün filtreleme aşamalarını göstermek için kullanılır. Örnek:
-• Anasayfa > Erkek Giyim > Ayakkabı > Siyah > 43 Numara
-2 **Geçmişe Dayalı (History-based) Breadcrumb**: Kullanıcının daha önce ziyaret ettiği sayfaları sırayla gösterir. Modern web tasarımlarında daha az kullanılan bir türdür çünkü tarayıcının "geri" işlevi aynı amaca hizmet eder.
+- **Konumsal (Location-based) Breadcrumb**: Kullanıcıların site hiyerarşisindeki konumunu gösterir. Örnek:
+Anasayfa > Blog > Kategori > Yazı Başlığı
+- **Özellik (Attribute-based) Breadcrumb**: Özellikle e-ticaret sitelerinde ürün filtreleme aşamalarını göstermek için kullanılır. Örnek:
+Anasayfa > Erkek Giyim > Ayakkabı > Siyah > 43 Numara
+- **Geçmişe Dayalı (History-based) Breadcrumb**: Kullanıcının daha önce ziyaret ettiği sayfaları sırayla gösterir. Modern web tasarımlarında daha az kullanılan bir türdür çünkü tarayıcının "geri" işlevi aynı amaca hizmet eder.
 
 ## Breadcrumb Navigation'ı Kullanmak Neden Bu Kadar Önemlidir?
 
