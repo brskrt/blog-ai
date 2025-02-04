@@ -49,17 +49,13 @@ Breadcrumb navigasyonunun en yaygın kullanılan 3 türü bulunur:
 ## Breadcrumb Kullanıcı Deneyimi İçin Önemi Nedir?
 
 • Kolay Gezinme: Özellikle mobil cihazlarda, üst menüler ya da yan paneller karmaşık olabilir. Breadcrumb, küçük bir alanda etkili bir yol sunar.
-
 • Hızlı Erişim: Kullanıcılar tek tıkla istedikleri üst sayfaya veya kategoriye dönebileceği için zaman kaybetmezler.
-
 • Güven ve Kontrol Hissi: Kullanıcı, sitede kaybolmadığı hissine kapılarak aradığı içeriğe daha rahat odaklanır.
 
 ## Teknik SEO İçin Breadcrumb Gezintisinin Önemi Nedir?
 
 • Arama Motorları Tarafından Anlaşılma: Google ve diğer arama motorları, breadcrumb yapısını inceleyerek sayfalar arası ilişkiyi daha iyi anlar.
-
 • Schema.org Yapılandırılmış Verileriyle Uyum: Breadcrumb, yapılandırılmış veri (Structured Data) ekleme konusunda önemli bir unsurdur. Doğru schema işaretlemeleriyle arama sonuçlarında daha zengin snippet'lar elde edilebilir.
-
 • Daha İyi Site Hiyerarşisi: Arama motorları, site yapısını daha iyi kavradıklarında indeksleme süreci daha sağlıklı ilerler ve potansiyel olarak sıralamalar iyileşir.
 
 ## Web Sitesinde Breadcrumb Uygulanması
