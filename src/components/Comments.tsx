@@ -60,7 +60,7 @@ export default function Comments() {
             placeholder="İsminiz"
             value={newComment.name}
             onChange={(e) => setNewComment({...newComment, name: e.target.value})}
-            className="p-2 border rounded"
+            className="p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             required
           />
           <input
@@ -68,7 +68,7 @@ export default function Comments() {
             placeholder="E-posta adresiniz"
             value={newComment.email}
             onChange={(e) => setNewComment({...newComment, email: e.target.value})}
-            className="p-2 border rounded"
+            className="p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             required
           />
         </div>
@@ -76,7 +76,7 @@ export default function Comments() {
           placeholder="Yorumunuz..."
           value={newComment.content}
           onChange={(e) => setNewComment({...newComment, content: e.target.value})}
-          className="w-full p-2 border rounded mb-4 h-32"
+          className="w-full p-2 border rounded mb-4 h-32 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           required
         />
         <button
