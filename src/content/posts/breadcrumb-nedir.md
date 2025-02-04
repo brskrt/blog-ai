@@ -50,9 +50,9 @@ Breadcrumb navigasyonunun en yaygın kullanılan 3 türü bulunur:
 
 ## Breadcrumb Navigation'ı Kullanmak Neden Bu Kadar Önemlidir?
 
-- **Kullanıcı Dostu Gezinme**: Breadcrumb, özellikle çok sayfalı veya kategorili sitelerde kullanıcılara hızlı geri dönüş ve üst kategoriye geçiş sağlar.  
-- **Sitede Kalma Süresini Artırır**: Ziyaretçiler, ilgilendikleri kategoriler arası geçişi zorlanmadan yapabilirler. Bu da sitenin hemen çıkma oranını düşürerek, etkileşimi artırır.  
-- **Hiyerarşik Yapıyı Netleştirir**: Büyük çaplı sitelerde içerik yapısını anlamak kullanıcı için zor olabilir. Breadcrumb, bu yapıyı görsel olarak özetler.  
+• **Kullanıcı Dostu Gezinme**: Breadcrumb, özellikle çok sayfalı veya kategorili sitelerde kullanıcılara hızlı geri dönüş ve üst kategoriye geçiş sağlar.  
+• **Sitede Kalma Süresini Artırır**: Ziyaretçiler, ilgilendikleri kategoriler arası geçişi zorlanmadan yapabilirler. Bu da sitenin hemen çıkma oranını düşürerek, etkileşimi artırır.  
+• **Hiyerarşik Yapıyı Netleştirir**: Büyük çaplı sitelerde içerik yapısını anlamak kullanıcı için zor olabilir. Breadcrumb, bu yapıyı görsel olarak özetler.  
 
 
 ## Teknik SEO İçin Breadcrumb Gezintisinin Önemi Nedir?
