@@ -3,53 +3,53 @@
 ## 1. On-Page SEO Teknikleri
 
 ### 1.1. Title Tag Optimizasyonu
-* Her sayfa için benzersiz ve açıklayıcı başlıklar kullanın
-* Anahtar kelimeleri başlığın başına yerleştirin
-* 50-60 karakter uzunluğunda tutun
+• Her sayfa için benzersiz ve açıklayıcı başlıklar kullanın
+• Anahtar kelimeleri başlığın başına yerleştirin
+• 50-60 karakter uzunluğunda tutun
 
 ### 1.2. Meta Description
-* Sayfanın içeriğini kısaca özetleyin
-* Anahtar kelimeleri doğal bir şekilde kullanın
-* 150-160 karakter arasında tutun
+• Sayfanın içeriğini kısaca özetleyin
+• Anahtar kelimeleri doğal bir şekilde kullanın
+• 150-160 karakter arasında tutun
 
 ### 1.3. Header Tags (H1, H2, H3)
-* Her sayfada tek bir H1 etiketi kullanın
-* Alt başlıkları hiyerarşik olarak düzenleyin
-* Anahtar kelimeleri doğal bir şekilde yerleştirin
+• Her sayfada tek bir H1 etiketi kullanın
+• Alt başlıkları hiyerarşik olarak düzenleyin
+• Anahtar kelimeleri doğal bir şekilde yerleştirin
 
 ## 2. Teknik SEO
 
 ### 2.1. Site Hızı Optimizasyonu
-* Görsel optimizasyonu yapın
-* Browser caching kullanın
-* CSS ve JavaScript dosyalarını minimize edin
+• Görsel optimizasyonu yapın
+• Browser caching kullanın
+• CSS ve JavaScript dosyalarını minimize edin
 
 ### 2.2. Mobile-First İndeksleme
-* Responsive tasarım kullanın
-* Mobile-friendly test yapın
-* Sayfa yükleme hızını mobil için optimize edin
+• Responsive tasarım kullanın
+• Mobile-friendly test yapın
+• Sayfa yükleme hızını mobil için optimize edin
 
 ### 2.3. XML Sitemap
-* Güncel sitemap oluşturun
-* Google Search Console'a ekleyin
-* Düzenli olarak güncelleyin
+• Güncel sitemap oluşturun
+• Google Search Console'a ekleyin
+• Düzenli olarak güncelleyin
 
 ## 3. İçerik Stratejisi
 
 ### 3.1. Kaliteli İçerik Üretimi
-* Kullanıcı odaklı içerik yazın
-* Güncel ve doğru bilgiler verin
-* Özgün içerik oluşturun
+• Kullanıcı odaklı içerik yazın
+• Güncel ve doğru bilgiler verin
+• Özgün içerik oluşturun
 
 ### 3.2. Anahtar Kelime Araştırması
-* Long-tail keywords kullanın
-* Arama niyetini anlayın
-* Rekabet analizi yapın
+• Long-tail keywords kullanın
+• Arama niyetini anlayın
+• Rekabet analizi yapın
 
 ### 3.3. İçerik Güncellemesi
-* Eski içerikleri güncelleyin
-* Broken linkleri düzeltin
-* Yeni bilgiler ekleyin
+• Eski içerikleri güncelleyin
+• Broken linkleri düzeltin
+• Yeni bilgiler ekleyin
 
 ## 4. Meta Tag Örnek Yapısı
 
