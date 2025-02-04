@@ -6,32 +6,38 @@ export default function Comments() {
   const commentsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Remove any existing giscus elements
+    const existingScript = document.querySelector('script[src*="giscus.app"]');
+    if (existingScript) {
+      existingScript.remove();
+    }
+
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', 'brskrt/blog-ai');
     script.setAttribute('data-repo-id', 'R_kgDOLQGxXw');
-    script.setAttribute('data-category', 'Comments');
+    script.setAttribute('data-category', 'General');
     script.setAttribute('data-category-id', 'DIC_kwDOLQGxX84CdxYE');
-    script.setAttribute('data-mapping', 'pathname');
+    script.setAttribute('data-mapping', 'url');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
     script.setAttribute('data-input-position', 'bottom');
     script.setAttribute('data-theme', 'light');
     script.setAttribute('data-lang', 'tr');
+    script.setAttribute('data-loading', 'lazy');
     script.crossOrigin = 'anonymous';
     script.async = true;
 
-    if (commentsRef.current) {
-      commentsRef.current.appendChild(script);
+    const container = commentsRef.current;
+    if (container) {
+      container.innerHTML = ''; // Clear existing content
+      container.appendChild(script);
     }
 
     return () => {
-      if (commentsRef.current) {
-        const giscusFrame = commentsRef.current.querySelector('iframe.giscus-frame');
-        if (giscusFrame) {
-          giscusFrame.remove();
-        }
+      if (container) {
+        container.innerHTML = '';
       }
     };
   }, []);
@@ -39,7 +45,7 @@ export default function Comments() {
   return (
     <div className="mt-10 pt-10 border-t border-gray-200">
       <h2 className="text-2xl font-bold mb-8">Yorumlar</h2>
-      <div ref={commentsRef} />
+      <div ref={commentsRef} className="giscus" />
     </div>
   );
 } 
