@@ -42,17 +42,17 @@ Bu gösterim, kullanıcıların hem hangi sayfada olduklarını hem de bu sayfay
 Breadcrumb navigasyonunun en yaygın kullanılan 3 türü bulunur:  
 
 
-1. Konumsal (Location-based) Breadcrumb: Kullanıcıların site hiyerarşisindeki konumunu gösterir. Örnek:
+1 **Konumsal (Location-based) Breadcrumb**: Kullanıcıların site hiyerarşisindeki konumunu gösterir. Örnek:
 • Anasayfa > Blog > Kategori > Yazı Başlığı
-2. Özellik (Attribute-based) Breadcrumb: Özellikle e-ticaret sitelerinde ürün filtreleme aşamalarını göstermek için kullanılır. Örnek:
+2 **Özellik (Attribute-based) Breadcrumb**: Özellikle e-ticaret sitelerinde ürün filtreleme aşamalarını göstermek için kullanılır. Örnek:
 • Anasayfa > Erkek Giyim > Ayakkabı > Siyah > 43 Numara
-3. Geçmişe Dayalı (History-based) Breadcrumb: Kullanıcının daha önce ziyaret ettiği sayfaları sırayla gösterir. Modern web tasarımlarında daha az kullanılan bir türdür çünkü tarayıcının "geri" işlevi aynı amaca hizmet eder.
+2 **Geçmişe Dayalı (History-based) Breadcrumb**: Kullanıcının daha önce ziyaret ettiği sayfaları sırayla gösterir. Modern web tasarımlarında daha az kullanılan bir türdür çünkü tarayıcının "geri" işlevi aynı amaca hizmet eder.
 
 ## Breadcrumb Navigation'ı Kullanmak Neden Bu Kadar Önemlidir?
 
-• **Kullanıcı Dostu Gezinme**: Breadcrumb, özellikle çok sayfalı veya kategorili sitelerde kullanıcılara hızlı geri dönüş ve üst kategoriye geçiş sağlar.  
-• **Sitede Kalma Süresini Artırır**: Ziyaretçiler, ilgilendikleri kategoriler arası geçişi zorlanmadan yapabilirler. Bu da sitenin hemen çıkma oranını düşürerek, etkileşimi artırır.  
-• **Hiyerarşik Yapıyı Netleştirir**: Büyük çaplı sitelerde içerik yapısını anlamak kullanıcı için zor olabilir. Breadcrumb, bu yapıyı görsel olarak özetler.  
+- **Kullanıcı Dostu Gezinme**: Breadcrumb, özellikle çok sayfalı veya kategorili sitelerde kullanıcılara hızlı geri dönüş ve üst kategoriye geçiş sağlar.  
+- **Sitede Kalma Süresini Artırır**: Ziyaretçiler, ilgilendikleri kategoriler arası geçişi zorlanmadan yapabilirler. Bu da sitenin hemen çıkma oranını düşürerek, etkileşimi artırır.  
+- **Hiyerarşik Yapıyı Netleştirir**: Büyük çaplı sitelerde içerik yapısını anlamak kullanıcı için zor olabilir. Breadcrumb, bu yapıyı görsel olarak özetler.  
 
 
 ## Teknik SEO İçin Breadcrumb Gezintisinin Önemi Nedir?
