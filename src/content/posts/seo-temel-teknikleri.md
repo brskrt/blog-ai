@@ -11,54 +11,63 @@ SEO (Search Engine Optimization), web sitelerinin arama motorlarında daha iyi s
 
 ## On-Page SEO Teknikleri
 
-1. **Title Tag Optimizasyonu**
-   - Her sayfa için benzersiz ve açıklayıcı başlıklar kullanın
-   - Anahtar kelimeleri başlığın başına yerleştirin
-   - 50-60 karakter uzunluğunda tutun
+### 1. Title Tag Optimizasyonu
 
-2. **Meta Description**
-   - Sayfanın içeriğini kısaca özetleyin
-   - Anahtar kelimeleri doğal bir şekilde kullanın
-   - 150-160 karakter arasında tutun
+* Her sayfa için benzersiz ve açıklayıcı başlıklar kullanın
+* Anahtar kelimeleri başlığın başına yerleştirin
+* 50-60 karakter uzunluğunda tutun
 
-3. **Header Tags (H1, H2, H3)**
-   - Her sayfada tek bir H1 etiketi kullanın
-   - Alt başlıkları hiyerarşik olarak düzenleyin
-   - Anahtar kelimeleri doğal bir şekilde yerleştirin
+### 2. Meta Description
+
+* Sayfanın içeriğini kısaca özetleyin
+* Anahtar kelimeleri doğal bir şekilde kullanın
+* 150-160 karakter arasında tutun
+
+### 3. Header Tags (H1, H2, H3)
+
+* Her sayfada tek bir H1 etiketi kullanın
+* Alt başlıkları hiyerarşik olarak düzenleyin
+* Anahtar kelimeleri doğal bir şekilde yerleştirin
 
 ## Teknik SEO
 
-1. **Site Hızı Optimizasyonu**
-   - Görsel optimizasyonu yapın
-   - Browser caching kullanın
-   - CSS ve JavaScript dosyalarını minimize edin
+### 1. Site Hızı Optimizasyonu
 
-2. **Mobile-First İndeksleme**
-   - Responsive tasarım kullanın
-   - Mobile-friendly test yapın
-   - Sayfa yükleme hızını mobil için optimize edin
+* Görsel optimizasyonu yapın
+* Browser caching kullanın
+* CSS ve JavaScript dosyalarını minimize edin
 
-3. **XML Sitemap**
-   - Güncel sitemap oluşturun
-   - Google Search Console'a ekleyin
-   - Düzenli olarak güncelleyin
+### 2. Mobile-First İndeksleme
+
+* Responsive tasarım kullanın
+* Mobile-friendly test yapın
+* Sayfa yükleme hızını mobil için optimize edin
+
+### 3. XML Sitemap
+
+* Güncel sitemap oluşturun
+* Google Search Console'a ekleyin
+* Düzenli olarak güncelleyin
 
 ## İçerik Stratejisi
 
-1. **Kaliteli İçerik Üretimi**
-   - Kullanıcı odaklı içerik yazın
-   - Güncel ve doğru bilgiler verin
-   - Özgün içerik oluşturun
+### 1. Kaliteli İçerik Üretimi
 
-2. **Anahtar Kelime Araştırması**
-   - Long-tail keywords kullanın
-   - Arama niyetini anlayın
-   - Rekabet analizi yapın
+* Kullanıcı odaklı içerik yazın
+* Güncel ve doğru bilgiler verin
+* Özgün içerik oluşturun
 
-3. **İçerik Güncellemesi**
-   - Eski içerikleri güncelleyin
-   - Broken linkleri düzeltin
-   - Yeni bilgiler ekleyin
+### 2. Anahtar Kelime Araştırması
+
+* Long-tail keywords kullanın
+* Arama niyetini anlayın
+* Rekabet analizi yapın
+
+### 3. İçerik Güncellemesi
+
+* Eski içerikleri güncelleyin
+* Broken linkleri düzeltin
+* Yeni bilgiler ekleyin
 
 ## Meta Tag Örnek Yapısı
 
